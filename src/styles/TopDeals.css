@@ -1,0 +1,28 @@
+/* .container {
+    display: flex;
+} */
+.top__deal__header{
+    font-size: 60px;
+    font-family: 'Koulen', cursive;
+    margin-left: 100px;
+    color: #164C25;
+}
+.top__deal__header span{
+    font-size: 20px;
+    font-family: 'Koulen', cursive;
+    padding-left: 971px;
+    
+}
+.view__all__route{
+    color: #164C25;
+    text-decoration: none;
+}
+.chevron__right__icon{
+    padding-left: 10px;
+    color: #164C25;
+}
+
+.top__deal_para{
+    margin-left: 100px;
+    font-size: 24px;
+}

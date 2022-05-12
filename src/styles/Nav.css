@@ -1,0 +1,159 @@
+.nav__fixed{
+    /* position: sticky; */
+    /* top: 0;
+    z-index: 100;
+    padding-bottom: 20px; */
+    /* Use this color for NAVBAR when user scrolls down */
+    /* background-color: lightgreen; */
+
+
+    /* Animations */
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+    
+}
+.nav__green{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #164C25;
+    padding-bottom: 20px;
+} 
+
+.nav__green .home__route{
+    color: white;
+}
+
+.nav__green .account__route{
+    color: white;
+}
+
+.nav__green .help__route{
+    color: white;
+}
+.nav__green .site__logo{
+    color: white;
+}
+
+.nav__green .cart__button{
+    border: 4px solid white;
+    background-color: #164C25;
+    color: white;
+}
+
+.nav__green .search__button{
+    color: white;
+    background-color: #164C25;
+    border: 4px solid white;
+}
+
+.site__logo{
+    font-family: 'Koulen', cursive;
+    font-size: 40px;
+    color: #164C25;
+    padding-right: 284px;
+    margin-left: 100px;
+    margin-top: 31px;
+}
+
+
+.route__home{
+    font-family: 'Koulen', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    color: #164C25;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.route__home li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 31px;
+}
+
+.home__route{
+    color: #164C25;
+    transition: all ease 1s;
+}
+.home__route:hover{
+    color: red;
+}
+
+
+.account__route{
+    padding-left: 51px;
+    color: #164C25;
+    transition: all ease 1s;
+}
+.account__route:hover{
+    color: red;
+}
+
+.help__route{
+    padding-left: 51px;
+    color: #164C25;
+    transition: all ease 1s;
+}
+.help__route:hover{
+    color: red;
+}
+
+
+
+/* .route__home li:nth-child(2){
+    padding-left: 48px;
+} */
+/* .route__home li:nth-child(3){
+    padding-left: 51px;
+} */
+
+.cart__button{
+   padding:  22px, 62px, 22px, 62px;
+   width: 198px;
+   height: 70px;
+   border: 4px solid #164C25;
+   border-radius: 40px;
+   background-color: white;
+   color: #164C25;
+   font-weight: 400;
+   font-family: 'Koulen', cursive;
+   font-size: 20px;
+   margin-left: 328px;
+   margin-top: 31px;
+   margin-right: 101px;
+   cursor: pointer;
+}
+
+.search__input .search__field{
+    width: 635px;
+    height: 50px;
+    border: 4px solid #164C25;
+    border-radius: 40px 0px 0px 40px;
+    margin-left: 320px;
+    margin-right: 10px;
+    margin-top: 28px;
+    font-size: 20px;
+    padding-left: 28px;
+    outline: none;
+}
+.search__input{
+    display: inline-block;
+}
+.search__button{
+    color: #164C25;
+    /* display: inline-block; */
+    width: 201px;
+    height: 50px;
+    border: 4px solid #164C25;
+    border-radius: 0px 40px 40px 0px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Koulen', cursive;
+    padding-top: 8px;
+    padding-bottom: 43px;
+    background-color: white;
+    cursor: pointer;
+ 
+}
+

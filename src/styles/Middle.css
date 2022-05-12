@@ -1,0 +1,16 @@
+.middle__container{
+    display: flex;
+    padding-left: 100px;
+    padding-top: 64px;
+} 
+
+.middle__container img{
+    float: right;
+}
+.middle__container h1{
+    font-size: 150px;
+    line-height: 160px;
+    font-family: 'Koulen', cursive;
+    color: #164C25;
+    
+}

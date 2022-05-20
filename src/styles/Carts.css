@@ -1,0 +1,155 @@
+/* Use this styles below to style h1 in MyCart page */
+/* .cart__items h1{
+
+
+} */
+
+.cart__page h1{
+    font-family: 'Koulen', cursive;
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 77px;
+text-align: center;
+color: #164C25;
+}
+
+
+.cart__items{
+    margin-top: 100px;
+}
+
+
+
+.cart__item{
+    display: flex;
+    /* border: 2px solid red; */
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 24px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #164C25;
+    border-radius: 300px;
+    
+    
+    
+}
+
+.cart__product{
+    display: flex;
+    align-items: center;
+    width: 280px;
+    height: 225px;
+    
+}
+
+.cart__product img{
+    width: 280px;
+    height: 220px;
+    /* padding-right: 20px; */
+    padding-bottom: 20px;
+    padding-top: 20px;
+    object-fit: contain;
+    padding-right: 50px;
+    border-radius: 80px;
+
+}
+.cart__item__content{
+    line-height: 19px;
+    flex-wrap: wrap;
+    width: 500px;
+} 
+
+.cart__item__content h2{
+    font-family: 'Koulen', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 31px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+/* identical to box height */
+
+
+/* Green/Dark */
+
+color: #164C25;
+}
+
+
+.cart__item__content h4{
+    font-family: 'Koulen', cursive;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 19px;
+padding-bottom: 10px;
+
+/* Green/Dark */
+
+color: #164C25;
+}
+
+.cart__item__content p{
+    line-height: 20px;
+
+}
+
+.cart__item__price{
+    align-items: center;
+    padding-right: 15px;
+}
+.cart__item__quantity{
+    display: flex;
+    border: 3px solid #164C25;
+    justify-content: center;
+    border-radius: 30px;
+    width: 100px;
+    margin-top: 23px;
+    margin-bottom: 21px;
+    color: #164C25;
+
+
+}
+
+.arrival__date{
+    padding-top: 40px;
+}
+
+.cart__item__quantity button{
+    width: 100%;
+    border: none;
+    background-color: white;
+    border-radius: 30px;
+    font-size: 24px;
+    color: #164C25;
+    cursor: pointer;
+}
+.item__count{
+    font-size: 25px;
+}
+
+.cart__item__price h1{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: #164C25;
+}
+
+.cart__item__price h3{
+    
+font-family: 'Koulen', cursive;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 19px;
+cursor: pointer;
+/* identical to box height */
+
+
+/* Green/Dark */
+
+color: #164C25;
+}

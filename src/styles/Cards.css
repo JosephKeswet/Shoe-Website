@@ -30,6 +30,16 @@
     margin-left: 401px;
 }
 
+.add__cart{
+    padding: 5px;
+    margin-top: 10px;
+    color:#164C25;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Koulen', cursive;
+    border-radius: 20px;
+}
+
 /* .card__content:hover{ */
     /* border: 1px solid #164C25; */
     /* border-radius: 230px; */

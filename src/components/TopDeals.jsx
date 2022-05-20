@@ -16,7 +16,7 @@ const TopDeals = ({detail,head,route}) => {
             {head}
             <span>
 
-                <Link to="/test" className='view__all__route'>
+                <Link to={String(route)} className='view__all__route'>
                     VIEW ALL
                     <FontAwesomeIcon icon={faChevronRight} className="chevron__right__icon" />
                 </Link>

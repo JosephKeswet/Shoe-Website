@@ -36,7 +36,7 @@ const Nav = () => {
         <div>
         <ul>
             <Link to="/" className='home__route'> <li>Home</li></Link>
-            <Link to="/account" className='account__route'><li>Account</li></Link>
+            <Link to="/signup" className='account__route'><li>Account</li></Link>
             <Link to="/help" className='help__route'><li>Help</li></Link>
         </ul>
         </div>
